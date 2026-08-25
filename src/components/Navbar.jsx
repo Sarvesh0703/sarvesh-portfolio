@@ -17,7 +17,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
         <a
           href="#home"
-          className="text-xl font-black tracking-tight text-white"
+          className="text-2xl font-black tracking-tight text-white"
         >
           Sarvesh<span className="text-violet-400">.</span>
         </a>
@@ -36,7 +36,7 @@ export default function Navbar() {
 
         <a
           href="#contact"
-          className="hidden rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-violet-100 md:block"
+          className="hidden rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-violet-100 md:block"
         >
           Hire Me
         </a>

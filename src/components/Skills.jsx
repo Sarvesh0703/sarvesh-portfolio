@@ -10,7 +10,7 @@ const skills = [
   "GitHub",
   "REST APIs",
   "Responsive Design",
-  "Figma",
+  "Photoshop",
 ];
 
 export default function Skills() {
@@ -31,7 +31,7 @@ export default function Skills() {
           {skills.map((skill, index) => (
             <div
               key={skill}
-              className="group glass rounded-2xl p-5 transition duration-300 hover:-translate-y-1 hover:border-cyan-400/20"
+              className="group glass rounded-2xl p-5 transition duration-500 hover:-translate-y-2 hover:border-cyan-400/20"
             >
               <div className="flex items-center justify-between">
                 <span className="font-semibold text-slate-200">{skill}</span>

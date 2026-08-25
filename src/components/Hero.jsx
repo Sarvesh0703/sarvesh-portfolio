@@ -27,7 +27,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-400">
-            React.js Developer with 3+ years of experience creating responsive,
+            React.js Developer with 2+ years of experience creating responsive,
             scalable and user-focused web interfaces using modern frontend
             technologies.
           </p>
@@ -35,7 +35,7 @@ export default function Hero() {
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
             <a
               href="#projects"
-              className="rounded-full bg-white px-7 py-3.5 text-center font-bold text-slate-950 transition hover:-translate-y-1 hover:bg-violet-100"
+              className="rounded-full bg-white px-7 py-3.5 text-center font-bold text-slate-950 transition duration-500 hover:-translate-y-1.5 hover:bg-violet-100"
             >
               View My Projects →
             </a>
@@ -44,7 +44,7 @@ export default function Hero() {
               href="/sarvesh-portfolio/resume.pdf"
               target="_blank"
               rel="noreferrer"
-              className="rounded-full border border-white/10 bg-white/5 px-7 py-3.5 text-center font-semibold text-white backdrop-blur transition hover:-translate-y-1 hover:bg-white/10"
+              className="rounded-full border border-white/10 bg-white/5 px-7 py-3.5 text-center font-semibold text-white backdrop-blur transition duration-500 hover:-translate-y-1.5 hover:bg-white/10"
             >
               Download Resume
             </a>
@@ -52,7 +52,7 @@ export default function Hero() {
 
           <div className="mt-12 flex flex-wrap gap-8 border-t border-white/10 pt-8">
             <div>
-              <p className="text-3xl font-black text-white">3+</p>
+              <p className="text-3xl font-black text-white">2+</p>
               <p className="mt-1 text-sm text-slate-500">Years Experience</p>
             </div>
 
@@ -96,7 +96,7 @@ export default function Hero() {
               </p>
 
               <p className="pl-5">
-                experience: <span className="text-orange-300">"3+ years"</span>,
+                experience: <span className="text-orange-300">"2+ years"</span>,
               </p>
 
               <p className="pl-5">skills: [</p>

@@ -37,7 +37,7 @@ export default function About() {
             ].map(([number, title]) => (
               <div
                 key={number}
-                className="glass rounded-3xl p-6 transition hover:-translate-y-1 hover:border-violet-400/20"
+                className="glass rounded-3xl p-6 transition duration-500 hover:-translate-y-2 hover:border-violet-400/20"
               >
                 <span className="text-sm font-bold text-violet-400">
                   {number}

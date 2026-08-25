@@ -39,7 +39,7 @@ export default function WhyHireMe() {
           {reasons.map((item) => (
             <div
               key={item.title}
-              className="glass rounded-3xl p-7 text-center transition hover:-translate-y-2"
+              className="glass rounded-3xl p-7 text-center transition duration-500 hover:-translate-y-2"
             >
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-white/5 text-2xl">
                 {item.icon}

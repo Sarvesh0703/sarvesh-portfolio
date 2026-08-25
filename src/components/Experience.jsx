@@ -25,7 +25,7 @@ export default function Experience() {
                 <p className="mt-1 text-violet-300">Professional Experience</p>
               </div>
 
-              <span className="text-sm text-slate-500">3+ Years</span>
+              <span className="text-sm text-slate-500">2+ Years</span>
             </div>
 
             <ul className="mt-7 grid gap-4 text-slate-400 md:grid-cols-2">
